@@ -7,5 +7,5 @@ def home(request):
 def home1(request):
     return HttpResponse(u'Hello World!123')    
 def home2(request):
-    return render(request, 'templates/index.html')           
+    return render(request, 'templates/static_handler.html')           
 
